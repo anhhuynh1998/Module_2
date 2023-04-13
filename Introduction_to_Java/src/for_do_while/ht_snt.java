@@ -1,12 +1,8 @@
-package bai_tap;
-// interger.parseint(scanner.nextint())
-// %s -> string
-// %d -> integer
-// %f -> float
+package for_do_while;
 
 import java.util.Scanner;
 
-public class bai10 {
+public class ht_snt {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("nhập số nguyên dương n :");
@@ -29,4 +25,3 @@ public class bai10 {
         }
     }
 }
-
