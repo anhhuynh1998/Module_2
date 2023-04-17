@@ -3,7 +3,7 @@ package tt_search;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class np_Dequy {
+public class sudung_Dequy {
     public static void main(String[] args) {
 
 
@@ -41,5 +41,5 @@ public class np_Dequy {
             }
         }
         return -1; // Nếu không tìm thấy giá trị, trả về -1
-}
+    }
 }
