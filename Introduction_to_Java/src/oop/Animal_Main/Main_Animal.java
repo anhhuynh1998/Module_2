@@ -1,4 +1,4 @@
-package oop;
+package oop.Animal_Main;
 
 import java.util.Scanner;
 

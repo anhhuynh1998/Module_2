@@ -22,8 +22,8 @@ public class QuadraticEquation {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("nhập a :");
+        Scanner scanner = new Scanner(System.in);// tạo 1 thư vịện scanner
+        System.out.print("nhập a :");// gọi nguoi dùng nhập vào tham số a
         double a = scanner.nextDouble();
         System.out.print("nhập b :");
         double b = scanner.nextDouble();

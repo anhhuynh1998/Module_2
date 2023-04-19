@@ -1,4 +1,4 @@
-package oop;
+package oop.Rectangle_Main;
 
 public class Rectangle {
     double width, height;

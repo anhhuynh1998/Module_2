@@ -1,4 +1,6 @@
-package oop;
+package oop.Rectangle_Main;
+
+import oop.Rectangle_Main.Rectangle;
 
 import java.util.Scanner;
 
