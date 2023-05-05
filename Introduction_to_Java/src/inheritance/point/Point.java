@@ -1,13 +1,11 @@
-package inheritance.P2d;
+package inheritance.point;
 
-public class Point2D {
-    private float x =0.0f;
-    private float y = 0.0f;
-    public Point2D(){
+public class Point {
+    protected float x = 0.0f;
+    protected float y = 0.0f;
+    public Point(){}
 
-    }
-
-    public Point2D(float x, float y) {
+    public Point(float x, float y) {
         this.x = x;
         this.y = y;
     }
@@ -27,9 +25,9 @@ public class Point2D {
     public void setY(float y) {
         this.y = y;
     }
-    public void setXY(float x, float y){
-        this.y = y;
+    public void setXY(float x,float y){
         this.x = x;
+        this.y = y;
     }
     public float[] getXY(){
         return new float[]{x,y};
@@ -37,7 +35,7 @@ public class Point2D {
 
     @Override
     public String toString() {
-        return "Point2D{" +
+        return "Point{" +
                 "x=" + x +
                 ", y=" + y +
                 '}';
