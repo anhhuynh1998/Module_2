@@ -3,8 +3,9 @@ package Bai_Tap20;
 import java.util.ArrayList;
 
 public class B1 {
+    //Bài 1: Hãy liệt kê các giá trị có toàn chữ số lẻ trong mảng 1 chiều các số nguyên
     public static void main(String[] args) {
-        int[] arr = {123, 456, 789, 135, 246};
+        int[] arr = Input.createRandomArray(10, -1, 10);
         ArrayList<Integer> result = oddDigitsArray(arr);
         System.out.println(result);
     }

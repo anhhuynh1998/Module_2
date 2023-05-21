@@ -3,9 +3,10 @@ package Bai_Tap20;
 import java.util.ArrayList;
 
 public class B2 {
+    //Bài 2: Hãy liệt kê các vị trí mà giá trị tại đó là số nguyên tố
     public static ArrayList<Integer> findPrimePositions() {
         ArrayList<Integer> primePositions = new ArrayList<>();
-        int[] arr = {1,43,2,4,6,8,9,43,2};
+        int[] arr = Input.createRandomArray(10, 1, 10);
         for (int i = 0; i < arr.length; i++) {
             if (isPrime(arr[i])) {
                 primePositions.add(i);
@@ -13,6 +14,7 @@ public class B2 {
         }
         return primePositions;
     }
+
     public static boolean isPrime(int n) {
         if (n <= 1) {
             return false;
