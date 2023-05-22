@@ -14,20 +14,16 @@ public class B19 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Đọc số phần tử ban đầu của danh sách L
         int n = sc.nextInt();
 
-        // Khởi tạo danh sách L và đọc các phần tử ban đầu của nó
         ArrayList<Integer> L = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             int x = sc.nextInt();
             L.add(x);
         }
 
-        // Đọc số truy vấn Q
         int Q = sc.nextInt();
 
-        // Xử lý các truy vấn
         for (int i = 0; i < Q; i++) {
             String query = sc.next();
             if (query.equals("Chèn")) {
@@ -40,7 +36,6 @@ public class B19 {
         }
     }
 
-        // In danh sách L sau khi xử lý các truy vấn
         for (int i = 0; i < L.size(); i++) {
             System.out.print(L.get(i) + " ");
         }
